@@ -39,5 +39,8 @@ int main()
 {
     stack<int> st1;
     st1.push(3);
+    stack<char> st2;
+    st2.push('a');
     cout << st1.pop() << endl;
+    cout << st2.pop() << endl;
 }
